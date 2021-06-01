@@ -1,0 +1,10 @@
+pip3 install virtualenv
+
+Crear entorno virtual
+python3 -m venv my_env
+
+Activar entorno
+source fastapis/bin/activate
+
+
+uvicorn sql_app.main:app --reload
